@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<title>Desafio 01 :: DIO - Jogo da Velha</title>
+	</head>
+	<body>
+		<main>
+			<h1 id="page-title">Jogo da Velha</h1>
+			<div class="linha">
+				<button id="q1" class="quadro indefinido" onclick="marcarQuadro(this,1);" disabled>-</button>
+				<button id="q2" class="quadro indefinido" onclick="marcarQuadro(this,2);" disabled>-</button>
+				<button id="q3" class="quadro indefinido" onclick="marcarQuadro(this,3);" disabled>-</button>
+			</div>
+			<div>
+				<button id="q4" class="quadro indefinido" onclick="marcarQuadro(this,4);" disabled>-</button>
+				<button id="q5" class="quadro indefinido" onclick="marcarQuadro(this,5);" disabled>-</button>
+				<button id="q6" class="quadro indefinido" onclick="marcarQuadro(this,6);" disabled>-</button>
+			</div>
+			<div>
+				<button id="q7" class="quadro indefinido" onclick="marcarQuadro(this,7);" disabled>-</button>
+				<button id="q8" class="quadro indefinido" onclick="marcarQuadro(this,8);" disabled>-</button>
+				<button id="q9" class="quadro indefinido" onclick="marcarQuadro(this,9);" disabled>-</button>
+			</div>
+			<div id="comunicacao">Clique em "Iniciar Jogo".</div>	
+			<div>
+				<button class="btn jogador_x">Jogador X</button>
+				<button class="btn btn-comando" id="btn-iniciar" onclick="reiniciar();">Iniciar jogo</button>
+				<button class="btn jogador_o">Jogador O</button>
+			</div>
+		</main>
+		<footer>Basecamp de @Aluipio <> @DIO - Digital Innovation One</footer>
+
+		<!-- Sons do jogo !-->
+		<audio src="assets/sons/jogada.mp3" preload="auto" id="jogada"></audio>
+		<audio src="assets/sons/final.mp3" preload="auto" id="final"></audio>
+		<audio src="assets/sons/musica_fundo.mp3" preload="auto" id="musica_fundo" autoplay loop></audio>
+		
+		<!-- Carregamento de Script !-->
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>

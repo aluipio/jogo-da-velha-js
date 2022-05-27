@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+	background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+#comunicacao {
+	padding: 5px 0px;
+	margin: 5px 0px;
+}
+
+button.quadro {
+	border-radius: 10px;
+	font-size: 2.5rem;
+	height: 100px;
+	width: 100px;
+	border: none;
+	color: #e5e8e8;
+	margin: 0px 10px 10px 0px;
+}
+
+button.indefinido {
+	transition: all 0.5s linear;
+	background-color: #4e545c;
+}
+
+button.indefinido:hover {
+	background-color: #161515;
+}
+
+button.btn {
+	border-radius: 15px;
+	font-size: 1rem;
+	height: 30px;
+	width: 150px;
+	border: none;
+	color: #e5e8e8;
+	background-color: #4e545c;
+	transition: all 0.5s linear;
+	margin: 0px 10px 10px 0px;
+}
+
+button.btn-comando {
+	background-color: #4e545c;
+}
+
+button.btn-comando:hover {
+	background-color: #000401;
+}
+
+button.jogador_marca_x, button.jogador_x, button.jogador_x:hover {
+	background-color: #3434ab;
+}
+
+button.jogador_marca_o, button.jogador_o, button.jogador_o:hover{
+	background-color: #e61b25;
+}
+
+button.vencedor{
+	border: 8px solid rgb(0, 230, 65);
+}
+
+footer {
+	width: 100%;
+	background-color: #4e545c;
+	padding: 16px;
+	color: #e5e8e8;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}

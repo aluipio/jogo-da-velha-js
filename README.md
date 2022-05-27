@@ -1,4 +1,4 @@
-# Desafio 01 - Bootcamp: Jogo da Velha
+# Desafio Bootcamp: Jogo da Velha
 
 Projeto de jogo da velha em 26 de abril de 2022, pela [Digital Innovation One](https://digitalinnovation.one/).
 
